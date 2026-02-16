@@ -11,6 +11,6 @@ $(TARGET): $(OBJS)
 
 %.o : %.cpp
 	$(CC) $(FLAGS) -c $< -o $@
-
+ 
 clean : 
 	rm -rf $(OBJS) $(TARGET)
