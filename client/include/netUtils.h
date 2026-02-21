@@ -12,7 +12,8 @@ enum class MessageType {
     REPLY,
     ACK,
     SYNC,
-    ACK_SYNC
+    ACK_SYNC,
+    Test
 };
 
 struct MessageId {
